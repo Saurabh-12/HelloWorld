@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Replace placeholder ID with your tracking ID -->
+    <string name="ga_trackingId">UA-47704140-1</string>
+
+    <!-- Enable automatic activity tracking -->
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <!-- Enable automatic exception tracking -->
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+    
+     <!-- Set Your Application Screen as per your choice -->
+    <string name="com.example.helloworld.GATrackingActivityOne">screen One</string>
+    <string name="com.example.helloworld.GATrackingActivityTwo">screen Two</string>
+    
+
+</resources>
