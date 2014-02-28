@@ -9,7 +9,7 @@ import android.view.View.OnClickListener;
 import android.widget.TextView;
 
 public class MainActivity extends Activity implements OnClickListener {
-	private TextView google_analytics_example_tv;
+	private TextView google_analytics_example_tv,notification_example_tv;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -18,10 +18,12 @@ public class MainActivity extends Activity implements OnClickListener {
 
 
 		google_analytics_example_tv = (TextView)findViewById(R.id.google_analytics_example_tv);
+		notification_example_tv = (TextView)findViewById(R.id.notification_example_tv);
 
 
 
 		google_analytics_example_tv.setOnClickListener(this);
+		notification_example_tv.setOnClickListener(this);
 
 
 
@@ -32,6 +34,10 @@ public class MainActivity extends Activity implements OnClickListener {
 
 		if(view == google_analytics_example_tv){
 			startActivity(new Intent(MainActivity.this, GATrackingActivityOne.class));
+
+		}
+		if(view == notification_example_tv){
+			startActivity(new Intent(MainActivity.this, NotificationExampleActivity.class));
 
 		}
 

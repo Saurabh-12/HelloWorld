@@ -31,6 +31,9 @@
         <activity
             android:name="com.example.helloworld.GATrackingActivityTwo"
             android:label="@string/second_screen" />
+        <activity
+            android:name="com.example.helloworld.NotificationExampleActivity"
+            android:label="@string/third_screen" />
     </application>
 
 </manifest>

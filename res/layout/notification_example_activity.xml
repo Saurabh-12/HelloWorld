@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/notific_examp_tv"
+        style="@style/TextViews"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/notification_world" />
+
+    <TextView
+        android:id="@+id/basic_example_tv"
+        style="@style/TextViews"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/background_shape"
+        android:text="@string/notification_basic_example"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/bigtext_example_tv"
+        style="@style/TextViews"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/background_shape"
+        android:text="@string/notification_bigtext_example"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/bigpic_example_tv"
+        style="@style/TextViews"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/background_shape"
+        android:text="@string/notification_bigpic_example"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/inbox_example_tv"
+        style="@style/TextViews"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/background_shape"
+        android:text="@string/notification_inbox_example"
+        android:textColor="#fff" />
+
+</LinearLayout>
